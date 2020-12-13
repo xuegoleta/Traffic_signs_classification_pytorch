@@ -1,7 +1,7 @@
 # Traffic_signs_classification_pytorch
 * Built a 2 hidden-layer Convolutional Neural Networks (CNN) in pytorch, trained it to recognize different traffic signs type.
 
-* CNN model trained to classify traffic signs with 90% accuracy.
+* CNN model trained to classify traffic signs with 90% accuracy in test data images.
 
 ## Import dataset
 * Download the [traffic signs dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/download)
