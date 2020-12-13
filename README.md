@@ -1,12 +1,13 @@
 # Traffic_signs_classification_pytorch
-* Built in pytorch a 2 hidden-layer Convolutional Neural Networks (CNN) trainned to recognize different traffic signs type.
+* Built a 2 hidden-layer Convolutional Neural Networks (CNN) in pytorch, trained it to recognize different traffic signs type.
 
 * CNN model trained to classify traffic signs with 90% accuracy.
-## import dataset
+
+## Import dataset
 * Download the [traffic signs dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/download)
 
-## CNN model used 
-Net(
+## CNN model
+*Net(
 
   (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
   
@@ -25,9 +26,10 @@ Net(
   (fc2): Linear(in_features=128, out_features=43, bias=True)
   
 )
+## CNN performance
 
-Accuracy achieves ~90% over 5 epochs.
+*Accuracy achieves ~90% over 5 epochs.
 
-Accuracy/val_accuracy visualization during training time:
+*Accuracy/val_accuracy visualization during training time:
 
 ![accuracy plot](https://github.com/xuegoleta/Traffic_signs_classification_pytorch/blob/main/images/accuracy_plot.png)
