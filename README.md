@@ -7,7 +7,7 @@
 * Download the [traffic signs dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/download)
 
 ## CNN model
-*Net(
+* Net(
 
   (conv1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1))
   
@@ -28,8 +28,8 @@
 )
 ## CNN performance
 
-*Accuracy achieves ~90% over 5 epochs.
+* Accuracy achieves ~90% over 5 epochs.
 
-*Accuracy/val_accuracy visualization during training time:
+* Accuracy/val_accuracy visualization during training time:
 
 ![accuracy plot](https://github.com/xuegoleta/Traffic_signs_classification_pytorch/blob/main/images/accuracy_plot.png)
